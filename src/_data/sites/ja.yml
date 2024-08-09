@@ -22,6 +22,7 @@ locals:
   docs_next: false
   docs_v8: false
   blog: false
+  version_support: false
 
 #------------------------------------------------------------------------------
 # Analytics
@@ -88,6 +89,7 @@ footer:
     mastodon: Mastodon
   theme_switcher:
     title: 配色モード切り替え
+    system: システム
     light: 通常
     dark: ダーク
   language_switcher:
@@ -206,6 +208,7 @@ homepage:
     upcoming: 次バージョン
     development: 開発中バージョン
     dateline: VERSION（DATE）
+    version_support: Version Support
 
   explainer:
     image:

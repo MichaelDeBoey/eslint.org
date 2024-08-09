@@ -22,6 +22,7 @@ locals:
   docs_next: next--docs-eslint.netlify.app
   docs_v8: v8-x--docs-eslint.netlify.app
   blog: true
+  version_support: true
 redirects:
   - from: https://cn.eslint.org/*
     to: https://zh-hans.eslint.org
@@ -95,6 +96,7 @@ footer:
     mastodon: Mastodon
   theme_switcher:
     title: Theme Switcher
+    system: System
     light: Light
     dark: Dark
   language_switcher:
@@ -220,6 +222,7 @@ homepage:
     upcoming: Upcoming Version
     development: Development
     dateline: VERSION on DATE
+    version_support: Version Support
 
   explainer:
     image:

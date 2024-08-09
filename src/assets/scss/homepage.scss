@@ -99,11 +99,25 @@
 	@media all and (min-width: 1023px) {
 		align-items: flex-end;
 	}
+
+	@media all and (min-width: 800px) {
+		padding-block-start: var(--space-xl-2xl);
+		padding-top: var(--space-xl-2xl);
+	}
+}
+
+.eslint-versions-container {
+	display: flex;
+	flex-direction: column;
+	padding-block-end: 2rem;
+	padding-bottom: 2rem;
 }
 
 .eslint-versions {
 	margin-top: 3rem;
 	margin-block-start: 3rem;
+	margin-bottom: 1rem;
+	margin-block-end: 1rem;
 	display: inline-flex;
 	flex-direction: column;
 
@@ -126,6 +140,11 @@
 		padding-inline-end: 1rem;
 		display: flex;
 		align-items: center;
+	}
+
+	dd:last-of-type {
+		margin-bottom: 0;
+		margin-block-end: 0;
 	}
 
 	.c-icon {
@@ -259,5 +278,36 @@
 
 	@media all and (min-width: 1023px) {
 		display: block;
+	}
+}
+
+.deprecation-notice {
+	font-size: 14px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 4px 0;
+	background-color: var(--color-neutral-500);
+	color: white;
+
+	a {
+		color: white;
+		padding: 0 4px;
+	}
+
+	.hourglass-icon {
+		margin-right: 5px;
+	}
+
+	@media all and (max-width: 865px) {
+		display: block;
+		text-align: center;
+		padding: 4px 6px;
+
+		.hourglass-icon {
+			position: relative;
+			margin-right: 0;
+			top: 2px;
+		}
 	}
 }

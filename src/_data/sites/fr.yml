@@ -22,6 +22,7 @@ locals:
   docs_next: false
   docs_v8: false
   blog: false
+  version_support: false
 
 #------------------------------------------------------------------------------
 # Analytics
@@ -89,6 +90,7 @@ footer:
     mastodon: Mastodon
   theme_switcher:
     title: Thèmes
+    system: Système
     light: Light
     dark: Dark
   language_switcher:
@@ -214,6 +216,7 @@ homepage:
     upcoming: Prochaine Version
     development: Développement
     dateline: VERSION du DATE
+    version_support: Version Support
 
   explainer:
     image:

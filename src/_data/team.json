@@ -45,7 +45,7 @@
             "bio": null,
             "twitter_username": null,
             "github_username": "brettz9",
-            "location": null
+            "location": "Shenzhen"
         },
         {
             "username": "alberto",
@@ -237,17 +237,6 @@
             "location": null
         },
         {
-            "username": "SaraSoueidan",
-            "name": "Sara Soueidan",
-            "title": "ESLint Alumnus",
-            "website": "http://sarasoueidan.com",
-            "avatar_url": "https://avatars.githubusercontent.com/u/2527933?v=4",
-            "bio": "Inlclusive UI/design engineer, author, speaker, trainer. Creator of Practical Accessibility video course: https://practical-accessibility.today ",
-            "twitter_username": "SaraSoueidan",
-            "github_username": "SaraSoueidan",
-            "location": "Lebanon"
-        },
-        {
             "username": "VictorHom",
             "name": "Victor Hom",
             "title": "ESLint Alumnus",
@@ -332,7 +321,7 @@
             "title": "ESLint Alumnus",
             "website": "https://gplane.win",
             "avatar_url": "https://avatars.githubusercontent.com/u/17216317?v=4",
-            "bio": "Error messages should be human-friendly.",
+            "bio": "Manufacturer of code formatters and playgrounds.",
             "twitter_username": null,
             "github_username": "g-plane",
             "location": null
